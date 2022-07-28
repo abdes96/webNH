@@ -45,7 +45,7 @@ font-size: 45px;
     font-size: 25px;
 justify-content: center;
 justify-content: space-around;
-margin-top: 20px;
+margin-top: 40px;
 }
 
 .place div {
@@ -71,7 +71,7 @@ margin-bottom: 30px;
     display: flex;
     padding-left:  20px;
 }
-@media  (max-width:600px) {
+@media  (max-width:768px) {
 
    .place img {
 
@@ -87,7 +87,6 @@ height: 300px;
  }
  .place h2 {
     margin: auto;
-    margin-right: 50px;
     font-size: 30px;
 }
 
@@ -106,15 +105,17 @@ height: 300px;
     padding-top: 15px;
      font-size: 20px;
      margin-top: 0px;
- 
+ padding-left: 0;
  
  
   }
   .place h2 {
-     margin: auto;
  font-size: 30px;
  padding-left: 0px ;
 margin-top: 60px;
+display: flex;
+justify-content: flex-start;
+width: 33%;
 }
  
      

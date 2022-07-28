@@ -13,9 +13,8 @@ body {
 .intro {
     display: flex;
     justify-content: center;
-font-size: 25px;
 width: 90%;
-text-transform:uppercase;
+font-size: 30px;
 margin: 50px;
 }
   
@@ -33,12 +32,12 @@ margin-left: 100px;
 }
 .h1-2{
     display: flex;
-justify-content: flex-end;
-font-size: 45px;
-margin-right: 100px;
+    justify-content: flex-start;
+    padding-top: 150px;
+    font-size: 45px;
+    margin-left: 100px;
     margin-bottom: 25px;
-    padding-top: px;
-    color: #1D1E1B; 
+    color: #1D1E1B;
     text-transform: uppercase; 
 
 
@@ -76,10 +75,10 @@ opacity: 0.5;
 
 p {
     padding-bottom: 20px ;
-    padding-left: 10px;
+    padding-left: 30px;
     display: flex;
     margin: auto;
-
+letter-spacing: 2px;
     font-size: 30px;
 
 
@@ -119,6 +118,8 @@ button a {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    letter-spacing: 2px;
+    padding: 30px;
 }
 
 
@@ -148,10 +149,10 @@ h1 {
 
 }
 .intro {
-    padding: 0;
     margin: auto;
     margin-top: 20px;
-    font-size: 20px;
+    line-height: 1.25;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -159,7 +160,7 @@ h1 {
 
 p {
     padding-bottom: 20px ;
-    padding-left: 10px;
+    padding-left: 20px;
     display: flex;
     margin: auto;
 
