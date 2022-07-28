@@ -34,10 +34,10 @@ margin-left: 100px;
 .h1-2{
     display: flex;
 justify-content: flex-end;
-padding-top: 150px;
 font-size: 45px;
 margin-right: 100px;
     margin-bottom: 25px;
+    padding-top: px;
     color: #1D1E1B; 
     text-transform: uppercase; 
 
@@ -49,7 +49,7 @@ margin-right: 100px;
 .line {
     display: flex;
     margin-left: 50px;
-    opacity: 0.75;
+    opacity: 0.5;
     width: auto;
     height: 4px;
     background-color: #1D1E1B;
@@ -58,10 +58,10 @@ margin-right: 100px;
  .line2 {
     display: flex;
     margin-right: 50px;
-    opacity: 0.75;
     width: auto;
     height: 4px;
-    background-color: #1D1E1B;
+    background-color: #1D1E1B; 
+opacity: 0.5;
  }
 
 .formation {
@@ -80,7 +80,7 @@ p {
     display: flex;
     margin: auto;
 
-    font-size: 15px;
+    font-size: 30px;
 
 
 
@@ -100,7 +100,6 @@ p {
 button {
     display: flex;
     margin: auto;
-    margin-bottom: 30px;
 font-size: 30px;
 padding: 15px;
 border:  solid #1D1E1B;
@@ -158,7 +157,17 @@ h1 {
 }
 
 
+p {
+    padding-bottom: 20px ;
+    padding-left: 10px;
+    display: flex;
+    margin: auto;
 
+    font-size: 15px;
+
+
+
+}
 
 
 
