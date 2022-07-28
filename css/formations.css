@@ -1,0 +1,120 @@
+* { @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+
+    background-color: #F5EDDC;
+}
+
+#img {
+width: 100%;
+
+}
+h1 { 
+    display: flex;
+justify-content: flex-start;
+padding-top: 150px;
+font-size: 45px;
+    margin-bottom: 25px;
+    color: #1D1E1B; 
+    text-transform: uppercase; 
+
+}
+
+.line {
+    display: flex;
+    margin-left: 50px;
+    opacity: 0.75;
+    width: auto;
+    height: 4px;
+    background-color: #1D1E1B;
+ }
+
+.place img  {
+    width: 600px;
+    display: flex;
+    height: 500px;
+}
+
+.place {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    font-size: 25px;
+justify-content: center;
+justify-content: space-around;
+margin-top: 30px;
+}
+
+.place div {
+margin-bottom: 30px;
+}
+
+
+.place p{
+    padding-top: 30px;
+    font-size: 35px;
+    display: flex;
+
+}
+
+.f {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.place h2 {
+    margin: auto;
+    justify-content: flex-end;
+    display: flex;
+    padding-left:  20px;
+}
+@media  (max-width:600px) {
+
+   .place img {
+
+width: 400px;
+height: 300px;
+   }
+
+ .place p {
+    font-size: 25px;
+
+
+
+ }
+ .place h2 {
+    margin: auto;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+    
+}
+
+@media  (max-width:500px) {
+
+    .place img {
+ 
+ width: 400px;
+ height: 300px;
+    }
+ 
+  .place p {
+     font-size: 20px;
+     margin-top: 0px;
+ 
+ 
+ 
+  }
+  .place h2 {
+     margin: auto;
+ font-size: 30px;
+ padding-left: 10px ;
+ }
+ 
+     
+ }
+ 
