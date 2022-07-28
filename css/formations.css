@@ -45,7 +45,7 @@ font-size: 45px;
     font-size: 25px;
 justify-content: center;
 justify-content: space-around;
-margin-top: 30px;
+margin-top: 20px;
 }
 
 .place div {
@@ -98,11 +98,12 @@ height: 300px;
 
     .place img {
  
- width: 400px;
- height: 300px;
+ width: 350px;
+ height: 250px;
     }
  
   .place p {
+    padding-top: 15px;
      font-size: 20px;
      margin-top: 0px;
  
@@ -112,8 +113,9 @@ height: 300px;
   .place h2 {
      margin: auto;
  font-size: 30px;
- padding-left: 10px ;
- }
+ padding-left: 0px ;
+margin-top: 60px;
+}
  
      
  }
