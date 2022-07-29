@@ -12,7 +12,6 @@ body {
 .outside {
 display: flex;
 justify-content:center ;
-width: 90%;
 }
 
 
@@ -45,11 +44,11 @@ margin-bottom: 50px;
     justify-content: center;
 }
 #cours {
-border-bottom: solid black;
+border-bottom: solid 2px black;
 padding-bottom: 5px;  
 }
 .kit {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .kit p {
@@ -86,8 +85,13 @@ width: 90%;    }
     }
 @media  (max-width: 900px ) {
 
-
-  
+.place1 img {
+    width: 75%;
+}
+ .text h1 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
 .outside {
     display: flex;
     display: inline-block;
@@ -98,12 +102,11 @@ width: 90%;    }
 }
 }
 
-@media  (max-width: 768px ) {
+@media  (max-width: 844px ) {
 
 .place1 img {
-    margin-top: 10px;
-    
-}
+    margin-top: 20px;
+margin-left: 50px;}
 .place1 {
 display: flex;
 justify-content: center;
@@ -114,8 +117,6 @@ display: inline;}
         display: flex;
         display: inline-block;
         justify-content: center;
-        margin-left: 20px;
-        width: 75%;
     }
     text {
 
@@ -132,7 +133,7 @@ margin-top: 0px;
 h1 {
     font-size: 25px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 5px;
     margin-left: 10px;
 
 }

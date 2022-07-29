@@ -8,7 +8,24 @@ body {
     background-color: #F5EDDC;
 }
 
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
   
+  /* Add some content at the bottom of the video/page */
+  video {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 2px solid #F05945;
+  }
+  
+ 
 
 .intro {
     display: flex;
@@ -152,7 +169,7 @@ h1 {
     margin: auto;
     margin-top: 20px;
     line-height: 1.25;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     
 }
