@@ -7,6 +7,13 @@ body {
 
     background-color: #F5EDDC;
 }
+.place  div  a {
+text-decoration: none;
+color: #1D1E1B;
+display: flex;
+justify-content: center;
+
+}  
 
 #img {
 width: 100%;
@@ -65,18 +72,23 @@ margin-bottom: 30px;
     margin-bottom: 30px;
 
 }
+
 .place h2 {
     margin: auto;
     justify-content: flex-end;
     display: flex;
     padding-left:  20px;
 }
+
+
+
 @media  (max-width:768px) {
 
    .place img {
 
 width: 400px;
 height: 300px;
+
    }
 
  .place p {
@@ -105,7 +117,8 @@ height: 300px;
     padding-top: 15px;
      font-size: 20px;
      margin-top: 0px;
- padding-left: 0;
+     border-bottom: solid #1D1E1B;
+
  
  
   }
