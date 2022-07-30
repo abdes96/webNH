@@ -235,7 +235,12 @@ button a {
     width: 100%;
 }
 
-
+.faq h2 {
+    padding: 20px;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 25px;
+    }
 
 
 }
