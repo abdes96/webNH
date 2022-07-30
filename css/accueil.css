@@ -18,11 +18,8 @@ body {
   }
   
   /* Add some content at the bottom of the video/page */
-  video {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 50px;
-    border: 2px solid #F05945;
+  #myVideo {
+    width: 100%;
   }
   
  
