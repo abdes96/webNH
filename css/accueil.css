@@ -130,10 +130,23 @@ button a {
     margin-top: 50px;
     letter-spacing: 2px;
     padding: 30px;
+    margin: auto;
 }
 
-
-
+.faq{
+    margin-left: 100px;
+    padding: 30px;
+}
+.faq h2 {
+padding: 20px;
+margin: auto;
+padding-left: 20px;
+font-size: 30px;
+}
+.faq p {
+    width: 50%;
+    margin: 0;
+}
 
 
 
@@ -210,5 +223,19 @@ button a {
     justify-content: center;
     margin-top: 20px;
 }
+
+}
+
+@media (max-width: 700px) {
+.faq {
+    margin: auto;
+
+}
+.faq p {
+    width: 100%;
+}
+
+
+
 
 }
