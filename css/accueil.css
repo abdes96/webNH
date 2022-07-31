@@ -121,6 +121,7 @@ p {
     margin: auto;
 letter-spacing: 2px;
     font-size: 30px;
+    width: 80%;
 
 
 
@@ -220,7 +221,6 @@ p {
     padding-left: 20px;
     display: flex;
     margin: auto;
-
     font-size: 15px;
 
 
