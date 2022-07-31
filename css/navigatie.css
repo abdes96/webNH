@@ -118,8 +118,20 @@ nav li.active a{
 
 @media (max-width: 768px) {
 
-     
-    header { display: none;}
+    .bar {
+        
+        position: fixed;
+        margin-top: -100px;
+        background-color: #1D1E1B;
+    opacity: 0.80;
+    }
+    .logon {
+    float: left;
+    width: 768px;
+ height: 100px;        
+}
+
+ header { display: none;}
     .outer-menu a,
     .outer-menu a:visited,
     .outer-menu a:hover,
@@ -338,18 +350,7 @@ nav li.active a{
 
         
 }
-.bar {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    position: fixed;
-    margin-top: -100px;
-    background-color: #1D1E1B;
-opacity: 0.80;
-}
-.logon {
-float: left;
-}
+
     
 }
 /* einde mobile  */
