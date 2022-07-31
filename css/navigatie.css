@@ -8,7 +8,7 @@
 
 /* NAV */
 @media (min-width: 769px) {
-    .outer-menu {
+    .outer-menu , .bar {
         display: none;
     }
 
@@ -191,7 +191,6 @@ nav li.active a{
     .outer-menu .hamburger {
         position: absolute;
         top: 0;
-        left: 0px;
         z-index: 1;
         opacity: 0.80;
         width: 60px;
@@ -339,12 +338,18 @@ nav li.active a{
 
         
 }
-   .bar {
+.bar {
     width: 100%;
-    height: 200px;
-
-
-        }    
+    height: 100px;
+    display: flex;
+    position: fixed;
+    margin-top: -100px;
+    background-color: #1D1E1B;
+opacity: 0.80;
+}
+.logon {
+float: left;
+}
     
 }
 /* einde mobile  */

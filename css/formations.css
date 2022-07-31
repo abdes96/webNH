@@ -19,15 +19,9 @@ justify-content: center;
 width: 100%;
 
 }
-h1 { 
-    display: flex;
-justify-content: flex-start;
-padding-top: 150px;
-font-size: 45px;
-    margin-bottom: 25px;
-    color: #1D1E1B; 
-    text-transform: uppercase; 
-
+.for
+{
+    margin-top: 100px;
 }
 
 .line {
