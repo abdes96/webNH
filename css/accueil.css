@@ -42,8 +42,9 @@ opacity: 0.80;
     .bg-video {
         height: 340px;
         width: 50%;
-        margin-top: 100px;
         margin: auto;
+         margin-top: 100px;
+
     }
 
 }
