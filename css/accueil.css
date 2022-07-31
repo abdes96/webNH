@@ -14,9 +14,38 @@ body {
     position: relative;
     margin-top: 100px;
 }
+.video {
+    display: flex;
+    justify-content: center;
+    opacity: 0.65;
+    box-shadow: 1px 10px 10px 10px #1d1e1b;
+    background-color: #1D1E1B;}
 #myVideo {
     width: 300px;
-height: 300px;
+height: 420px;
+opacity: 0.80;
+}
+@media (min-width:768px) {
+    .video {
+        display: flex;
+        justify-content: center;
+        opacity: 0.65;
+        box-shadow: 1px 10px 10px 10px #1d1e1b;
+        background-color: #1D1E1B;
+    }
+    #myVideo {
+        width: 300px;
+    height: 420px;
+    opacity: 0.80;
+    }
+
+    .bg-video {
+        height: 340px;
+        width: 50%;
+        margin-top: 100px;
+        margin: auto;
+    }
+
 }
   
  
